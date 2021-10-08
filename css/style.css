@@ -2,9 +2,10 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --primary-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --primary-font: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 body {
@@ -103,7 +104,7 @@ p {
   margin-top: 48px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   h1 {
     font-size: 36px;
   }
@@ -112,30 +113,33 @@ p {
     text-align: center;
   }
   h3 {
-    font-size: 24px;;
+    font-size: 24px;
   }
-p {
-  margin: 0 0 -24px;
-  text-align: center;
-}
-.email-link {
-  font-size: 20px;
-}
-.hero-button {
-  margin: 0 10px;
-}
-.navigation-links {
-  margin: 40px 0 68px;
-}
-.navigation-link {
-  padding: 15px;
-  display: block;
-  text-align: center;
-}
+  p {
+    margin: 0 0 -24px;
+    text-align: center;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .hero-button {
+    margin: 0 10px;
+  }
+  .navigation-links {
+    margin: 40px 0 68px;
+  }
+  .navigation-link {
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   h2 {
     text-align: left;
+  }
+  #contact h2 {
+    text-align: center;
   }
 }
